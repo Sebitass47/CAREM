@@ -1,0 +1,291 @@
+.info-curso{
+    margin-top: 60px;
+}
+
+.icono{
+    font-size: 23px;
+}
+
+.portada-cursos{
+    display: flex;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1006%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(3%2c 107%2c 169%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c356.695C66.239%2c351.577%2c120.097%2c309.32%2c178.821%2c278.251C243.509%2c244.027%2c331.846%2c232.001%2c361.851%2c165.252C391.864%2c98.484%2c343.359%2c24.124%2c324.897%2c-46.713C308.592%2c-109.276%2c301.621%2c-175.819%2c260.055%2c-225.339C218.165%2c-275.245%2c157.292%2c-304.483%2c94.361%2c-321.365C32.444%2c-337.974%2c-31.73%2c-335.326%2c-94.058%2c-320.331C-158.854%2c-304.742%2c-225.782%2c-283.823%2c-269.775%2c-233.761C-313.888%2c-183.562%2c-322.234%2c-113.823%2c-333.427%2c-47.94C-344.891%2c19.539%2c-359.98%2c89.301%2c-335.523%2c153.228C-310.374%2c218.964%2c-257.691%2c270.836%2c-197.51%2c307.331C-138.285%2c343.246%2c-69.058%2c362.031%2c0%2c356.695' fill='%23025687'%3e%3c/path%3e%3cpath d='M1440 1116.95C1544.294 1101.857 1578.46 966.498 1654.062 893.086 1711.301 837.504 1796.603 810.566 1830.096 738.1510000000001 1863.643 665.619 1840.875 582.948 1834.341 503.302 1827.3609999999999 418.22 1834.386 329.497 1790.563 256.235 1742.717 176.248 1673.032 94.55000000000001 1581.004 79.78300000000002 1489.647 65.12400000000002 1413.194 143.673 1329.063 182.183 1258.255 214.59500000000003 1189.218 242.38799999999998 1126.107 288.01 1045.974 345.937 924.955 386.055 911.525 484.017 898.075 582.122 1016.543 644.939 1065.362 731.091 1108.666 807.511 1120.851 898.376 1182.038 961.396 1253.43 1034.9270000000001 1338.57 1131.629 1440 1116.95' fill='%230480cb'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1006'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    color: #F8F8F8;
+}
+
+.nombre-curso{
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-shadow: black 0.1em 0.1em 0.3em;
+    
+}
+
+.nombre-curso h1{
+    font-size: 78px;
+    font-weight: bold;
+    line-height: 78px;
+}
+
+.portada-cursos p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.caract-curso{
+    text-align: center;
+    width: 50%;
+    height: 270px;
+    padding: 10px;
+    margin: 40px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+    color: black;
+    
+}
+
+.portada-caract{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.portada-cursos span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #ECBF1A;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 5px;
+    color: #F8F8F8;
+    height: 85px;
+    width: 170px;
+    font-size: 16px;
+}
+
+.portada-cursos h1{
+    margin-top: 10px;
+}
+
+
+.caracteristicas{
+    min-height: 50vh;
+    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.caract{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+
+
+.caract span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 300px;
+    font-weight: lighter;
+    height: 120px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 7px;
+    padding: 0 5px 0 5px;
+    transition: all .2s;
+}
+
+.caract p{
+    text-align: center;
+    margin: 0;
+}
+
+.caract span:hover{
+    transform: scale(1.1);
+}
+
+.precios{
+    min-height: 50vh;
+    padding: 20px 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+.modalidades-pago{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));    
+    grid-gap: 25px;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+    
+}   
+
+.modalidad{
+    background-color: #F8F8F8;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: left;
+}
+
+.nombre-modalidad{
+    height: 90px;
+
+}
+
+.desglose{
+    height: 75px;
+    margin-bottom: 18px;
+    
+    
+}
+
+.modalidad h3{
+    margin:0;
+}
+
+.modalidad p{
+    
+    font-weight: lighter;
+}
+
+
+
+@media screen and (max-width: 1000px ) {
+    .caract{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+    }
+
+    .portada-caract{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .portada-cursos{
+        padding: 20px;
+        display: block;
+        min-height: 50vh;
+        width: 100%;
+        background-color: #036BA9;
+        color: #F8F8F8;
+    }
+
+    .nombre-curso{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+
+    .caract-curso{
+        text-align: center;
+        width: 100%;
+        height: 270px;
+        padding: 10px;
+        margin: auto;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F8F8F8;
+        color: black;
+        
+    }
+    
+}
+
+@media screen and (max-width: 650px ) {
+    .caract span{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: white;
+        width: 150px;
+        height: 120px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        border-radius: 7px;
+    }
+
+    .portada-caract{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .portada-cursos span{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        background-color: #ECBF1A;
+        height: 85px;
+        width: 150px;
+        font-size: 16px;
+    }
+
+    .caract-curso{
+        text-align: center;
+        width: 100%;
+        height: 270px;
+        padding: 10px;
+        margin: auto;
+        width: 2
+        350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F8F8F8;
+        color: black;
+        
+    }
+
+    .nombre-curso h1{
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 55px;
+    }
+
+   
+
+}
+
+

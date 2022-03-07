@@ -1,0 +1,13 @@
+
+.servicios{
+    color: inherit;
+    text-decoration: none;
+}
+
+.servicios:hover{
+    color: inherit;
+}
+
+.active{
+    color: #fff;
+}

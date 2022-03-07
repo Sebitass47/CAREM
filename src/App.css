@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+.home{
+    background-color: #F8F8F8;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+*::selection {
+    background: rgba(236,191,26,0.9);
+}
+
+.animado{
+    opacity: 0;
+   
+}
+
+@keyframes aparecer {
+    from {
+      opacity: 0;
+      margin-top: -50px;
+    }
+  
+    to {
+      opacity: 1;
+      margin-bottom: 0px;
+    }
+  }

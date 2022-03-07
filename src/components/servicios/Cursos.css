@@ -1,0 +1,131 @@
+.contenedor-cursos{
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.cursos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 25px;
+    justify-content: center;
+
+}
+
+.curso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border-bottom: 3px solid #036BA9;
+    border-top: 3px solid #036BA9;
+}
+
+.curso h1{
+    text-align: center;
+    font-size: 28px;
+    border-bottom: 3px solid #ECBF1A;
+}
+
+.curso:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nombre{
+    text-align: center;
+    margin: 10px;
+}
+
+.nombre h1{
+    margin: 0;
+}
+
+.contenedor-imagen{
+    overflow: hidden;
+}
+
+.contenedor-imagen img{
+    display: block;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.contenedor-info{
+    width: 90%;
+    margin: auto;
+}
+
+
+.boton-whatsapp{
+    margin: auto;
+    display: block;
+    width: 180px;
+    padding: 10px;
+    background-color: #0FBA1C;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    text-align: center;
+    transition: all .2s;
+    
+}
+
+.boton-whatsapp:hover{
+    transform: scale(1.1);
+    color: white;
+    
+    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.curso p{
+    font-weight: lighter;
+}
+
+.curso ul{
+    font-weight: lighter;
+}
+
+/* From cssbuttons.io by @alexmaracinaru */
+.button {
+    cursor: pointer;
+    font-weight: 700;
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #cfef00;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: auto;
+    display: block;
+    width: 205px;
+    color: black;
+    text-decoration: none;
+   }
+   
+   .button:hover {
+    background: #a6c900;
+    color: black;
+   }
+   
+   .button > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+   }
+   
+   .button:hover svg {
+    transform: translateX(5px);
+   }
+   
+   .button:active {
+    transform: scale(0.95);
+   
+   }
+   
+   
