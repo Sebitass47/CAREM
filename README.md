@@ -1,45 +1,30 @@
-# Getting Started with Create React App
+# CAREM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta página es creada para la escuela CAREM que se dedica a preparar a los estudiantes  para los exámenes de ingreso a Secundaria, Preparatoria y Universidad. 
+También ofrecen el servicio de estudiar con ellos. En esta podrás encontrar diferentes cursos que ofrecen, sus precios y modalidades.
+Para saber más ingresa a [su página oficial](https://carem.info/)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Como ejecutar el proyecto
 
-### `npm start`
+Una vez descargado los archivos desde este repositorio y teniendo descargado Node lo único que debes hacer es abrir tu terminal, 
+situarte en la carpeta del proyecto y escribir `npm install` esto lo que hará será descargar todas las bibliotecas utilizadas en este proyecto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Después debes de ejecutar el comando `npm start` y podrás ver el proyecto en  [http://localhost:3000](http://localhost:3000) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologías utilizadas
 
-### `npm test`
+- Hook useRef()
+- Hook useOnScreen()
+- React Bootstrap
+- React-icons
+- React Router
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Bugs 
 
-### `npm run build`
+Hay un bug en particular que tiene que ver con las animaciones, cada que un elemento desaparece y vuelve a aparecer en pantalla, hay una pequeña animación, pero en la página de cursos si detienes el scroll en un punto especifico de la pantalla esa animación se empieza a realizar una y otra vez, haciendo "temblar" la pantalla.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
+## Aprende más
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
