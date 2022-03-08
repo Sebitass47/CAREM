@@ -22,7 +22,7 @@ const Precios = ({ costo, pago_semanal, inicio, linkContado, linkMeses, linkSema
                     </div>
 
                     <a type="button" className='boton-whatsapp'
-                    href={linkContado} target='_blank'>
+                    href={linkContado} target='_blank' rel="noreferrer">
                         Pidelo ya!
                     </a>
 
@@ -43,7 +43,7 @@ const Precios = ({ costo, pago_semanal, inicio, linkContado, linkMeses, linkSema
                     </div>
 
                     <a type="button" className='boton-whatsapp' 
-                    href={linkMeses} target='_blank'>
+                    href={linkMeses} target='_blank' rel="noreferrer">
                         Pidelo ya!
                     </a>
 
@@ -63,7 +63,7 @@ const Precios = ({ costo, pago_semanal, inicio, linkContado, linkMeses, linkSema
                     </div>
 
                     <a type="button" className='boton-whatsapp'
-                    href={linkSemanal} target='_blank'>
+                    href={linkSemanal} target='_blank' rel="noreferrer">
                         Pidelo ya!
                     </a>
 

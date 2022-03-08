@@ -53,13 +53,13 @@ const CursoIngreso = ( {scrollToTop}) => {
 
     let datos
 
-    if (nombre_curso == 'secundaria'){
+    if (nombre_curso === 'secundaria'){
         datos = cursosProps.secundaria
     }
-    else if (nombre_curso == 'preparatoria'){
+    else if (nombre_curso === 'preparatoria'){
         datos = cursosProps.preparatoria
     }
-    else if (nombre_curso == 'universidad'){
+    else if (nombre_curso === 'universidad'){
         datos = cursosProps.universidad
     }
     else {

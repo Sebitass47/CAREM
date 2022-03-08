@@ -39,7 +39,7 @@ const EscuelaCarem = (props) => {
                 <p>{costo}</p>
 
                 <div className='contenedor-boton'>                
-                <a href={link} target='_blank' className="button">
+                <a href={link} target='_blank' rel="noreferrer" className="button">
                     <span>Más información</span>
                     <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="37" cy="37" r="35.5" stroke="black" strokeWidth="3"></circle>

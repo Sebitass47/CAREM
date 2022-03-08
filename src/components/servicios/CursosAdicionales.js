@@ -18,7 +18,7 @@ const CursosAdicionales = (props) => {
             </div>
 
             <div className='contenedor-boton'>
-                <a className='boton-whatsapp' type='button' href={url} target='_blank'>Inscribete ahora</a>
+                <a className='boton-whatsapp' type='button' href={url} target='_blank' rel="noreferrer">Inscribete ahora</a>
             </div>
         </div>
     )

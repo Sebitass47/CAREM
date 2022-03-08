@@ -7,10 +7,10 @@ const Footer = () => {
         <footer>
             <h1>CAREM A.C.</h1>
             <span>
-                <a href='https://www.facebook.com/carem.ug' target='_blank'>
+                <a href='https://www.facebook.com/carem.ug' target='_blank' rel="noreferrer">
                     <BsFacebook/>
                 </a>   
-                <a href='https://api.whatsapp.com/send?phone=+525546329182' className='whatsapp' target='_blank'>
+                <a href='https://api.whatsapp.com/send?phone=+525546329182' className='whatsapp' target='_blank' rel="noreferrer">
                     <BsWhatsapp />
                 </a>
                 </span>
