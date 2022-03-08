@@ -4,6 +4,7 @@ Esta página es creada para la escuela CAREM que se dedica a preparar a los estu
 También ofrecen el servicio de estudiar con ellos. En esta podrás encontrar diferentes cursos que ofrecen, sus precios y modalidades.
 Para saber más ingresa a [su página oficial](https://carem.info/)
 
+## [Video demostración](https://youtu.be/2wy-XfAvUzQ)
 
 ## Como ejecutar el proyecto
 
@@ -16,6 +17,7 @@ Después debes de ejecutar el comando `npm start` y podrás ver el proyecto en  
 
 - Hook useRef()
 - Hook useOnScreen()
+- Hook Redirect()
 - React Bootstrap
 - React-icons
 - React Router
@@ -24,32 +26,9 @@ Después debes de ejecutar el comando `npm start` y podrás ver el proyecto en  
 
 Hay un bug en particular que tiene que ver con las animaciones, cada que un elemento desaparece y vuelve a aparecer en pantalla, hay una pequeña animación, pero en la página de cursos si detienes el scroll en un punto especifico de la pantalla esa animación se empieza a realizar una y otra vez, haciendo "temblar" la pantalla.
 
-## Aprende más
+## Aprende más sobre React
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

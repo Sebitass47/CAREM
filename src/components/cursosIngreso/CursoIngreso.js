@@ -2,6 +2,7 @@ import { useMatch,  useParams } from 'react-router-dom'
 import Portada from './Portada'
 import Caracteristicas from './Caracteristicas'
 import Precios from './Precios'
+import Redirect from '../Redirect'
 import './CursoIngreso.css'
 
 
@@ -58,8 +59,12 @@ const CursoIngreso = ( {scrollToTop}) => {
     else if (nombre_curso == 'preparatoria'){
         datos = cursosProps.preparatoria
     }
-    else{
+    else if (nombre_curso == 'universidad'){
         datos = cursosProps.universidad
+    }
+    else {
+        return(<Redirect  to="/404" />)
+        
     }
 
 
