@@ -2,11 +2,14 @@ import CursosAdmision from './CursosAdmision'
 import CursosAdicionales from './CursosAdicionales'
 import EscuelaCarem from './EscuelaCarem'
 import './Cursos.css'
+import componentDidMount from '../Titulo'
 
 
 
 const Cursos = ({ scrollToTop }) => {
     scrollToTop()
+
+    componentDidMount('CAREM - Cursos')
     const cursos = {
         escuelaCarem: [{
             nombre: 'Primaria',

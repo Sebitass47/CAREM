@@ -3,6 +3,7 @@ import Portada from './Portada'
 import Caracteristicas from './Caracteristicas'
 import Precios from './Precios'
 import Redirect from '../Redirect'
+import componentDidMount from '../Titulo'
 import './CursoIngreso.css'
 
 
@@ -55,12 +56,15 @@ const CursoIngreso = ( {scrollToTop}) => {
 
     if (nombre_curso === 'secundaria'){
         datos = cursosProps.secundaria
+        componentDidMount('CAREM - Secundaria')
     }
     else if (nombre_curso === 'preparatoria'){
         datos = cursosProps.preparatoria
+        componentDidMount('CAREM - Preparatoria')
     }
     else if (nombre_curso === 'universidad'){
         datos = cursosProps.universidad
+        componentDidMount('CAREM - Universidad')
     }
     else {
         return(<Redirect  to="/404" />)
