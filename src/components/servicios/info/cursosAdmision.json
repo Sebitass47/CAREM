@@ -1,0 +1,22 @@
+[{
+    "curso": "secundaria",
+    "contado": "$3500",
+    "msi": "$4000",
+    "imagen": "/cursos/admision/secundaria.jpg",
+    "url": "secundaria"
+},
+{
+    "curso": "preparatoria",
+    "contado": "$4500",
+    "msi": "$5000",
+    "imagen": "/cursos/admision/preparatoria.jpg",
+    "url": "preparatoria"
+},
+
+{
+    "curso": "universidad",
+    "contado": "$5000",
+    "msi": "$6000",
+    "imagen": "/cursos/admision/universidad.jpg",
+    "url": "universidad"
+}]

@@ -1,10 +1,10 @@
 import { useRef } from "react";
-import useOnScreen from '../useOnScreen'
+import useOnScreen from '../../functions/useOnScreen'
 import { BiTimeFive } from 'react-icons/bi'
 
 const Modalidades = () => {
     const ref = useRef()
-    const onScreen = useOnScreen(ref, '-100px')
+    const onScreen = useOnScreen(ref, '50px')
 
     return (
         <article className="modalidades-article">

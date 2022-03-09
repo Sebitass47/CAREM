@@ -1,7 +1,7 @@
 import Portada from './Portada'
 import Informacion from './Informacion'
 import Modalidades from './Modalidades'
-import componentDidMount from '../Titulo'
+import componentDidMount from '../../functions/Titulo'
 import './Inicio.css'
 
 

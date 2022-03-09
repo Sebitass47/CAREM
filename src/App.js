@@ -1,24 +1,14 @@
-import Barra from './components/Barra'
-import Footer from './components/Footer'
+import Barra from './components/barra/Barra'
+import Footer from './components/footer/Footer'
 import { Routes, Route } from 'react-router-dom'
 import Inicio from './components/inicio/Inicio'
 import Cursos from './components/servicios/Cursos'
 import CursoIngreso from './components/cursosIngreso/CursoIngreso'
-import NotFound from './components/NotFound'
+import NotFound from './components/404/NotFound'
+import scrollToTop from './functions/scrollToTop'
 import './App.css'
 
 function App() {
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'auto'
-      /* you can also use 'auto' behaviour
-         in place of 'smooth' */
-    })
-  }
-
-  
 
   return (
     <div className="home">

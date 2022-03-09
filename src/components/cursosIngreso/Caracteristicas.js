@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import useOnScreen from '../useOnScreen'
+import useOnScreen from '../../functions/useOnScreen'
 import { AiFillIdcard } from 'react-icons/ai'
 import { FaMoneyBillWave } from 'react-icons/fa'
 import { MdHealthAndSafety } from 'react-icons/md'
@@ -9,7 +9,7 @@ import { BsCalendarWeekFill } from 'react-icons/bs'
 
 const Caracteristicas = ({ areas }) => {
     const ref = useRef()
-    const onScreen = useOnScreen(ref, '-30px')
+    const onScreen = useOnScreen(ref, '-50px')
 
     return (
         <section className="caracteristicas">

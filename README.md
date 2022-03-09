@@ -2,9 +2,11 @@
 
 Esta página es creada para la escuela CAREM que se dedica a preparar a los estudiantes  para los exámenes de ingreso a Secundaria, Preparatoria y Universidad. 
 También ofrecen el servicio de estudiar con ellos. En esta podrás encontrar diferentes cursos que ofrecen, sus precios y modalidades.
-Para saber más ingresa a [su página oficial](https://carem.info/)
+Para saber más ingresa a [su página oficial](https://carem.netlify.app/)
 
 ## [Video demostración](https://youtu.be/2wy-XfAvUzQ)
+
+En el video se muestra las páginas con las que cuenta la aplicación.
 
 ## Como ejecutar el proyecto
 
@@ -17,14 +19,12 @@ Después debes de ejecutar el comando `npm start` y podrás ver el proyecto en  
 
 - Hook useRef()
 - Hook useOnScreen()
-- Hook Redirect()
+- Hook useState()
+- Redirect()
 - React Bootstrap
 - React-icons
 - React Router
 
-## Bugs 
-
-Hay un bug en particular que tiene que ver con las animaciones, cada que un elemento desaparece y vuelve a aparecer en pantalla, hay una pequeña animación, pero en la página de cursos si detienes el scroll en un punto especifico de la pantalla esa animación se empieza a realizar una y otra vez, haciendo "temblar" la pantalla.
 
 ## Aprende más sobre React
 

@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import useOnScreen from '../useOnScreen'
+import useOnScreen from '../../functions/useOnScreen'
 import { Link } from 'react-router-dom'
 import React from "react";
 
@@ -9,7 +9,7 @@ const CursoAdmision = (props) => {
     const { curso, imagen, contado, msi, url } = props
 
     const ref = useRef()
-    const onScreen = useOnScreen(ref, '-100px')
+    const onScreen = useOnScreen(ref, '50px')
     
     return (
     

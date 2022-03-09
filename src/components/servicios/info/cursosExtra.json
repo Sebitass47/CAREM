@@ -1,0 +1,18 @@
+[{
+    "nombre": "Cuso de nivelacion",
+    "descripcion": "Regresa a clases con el mejor conocimiento, tenemos todos los planes educativos y las mejores herramientas, valido para: Kinder, Primaria, Secundaria.",
+    "imagen": "/cursos/adicionales/nivelacion.jpg",
+    "url": "https://api.whatsapp.com/send?phone=525546329182&text=Hola%20deseo%20inscribirme%20al%20curso%20de%20nivelación."
+},
+{
+    "nombre": "Office",
+    "descripcion": "Maneja la paqueteria mas comercial en el mundo como un experto. Sal con la certificación de grado profesional.",
+    "imagen": "/cursos/adicionales/Office.jpg",
+    "url": "https://api.whatsapp.com/send?phone=525546329182&text=Hola%20deseo%20inscribirme%20al%20curso%20de%20Office."
+},
+{
+    "nombre": "Inglés",
+    "descripcion": "La lengua mas usada en el mundo, con exámenes de acreditación de nivel.",
+    "imagen": "/cursos/adicionales/Ingles.jpg",
+    "url": "https://api.whatsapp.com/send?phone=525546329182&text=Hola%20deseo%20inscribirme%20al%20curso%20de%20Ingles."
+}]

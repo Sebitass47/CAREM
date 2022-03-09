@@ -1,0 +1,11 @@
+ {
+    "nombre_curso": "Secundaria",
+    "areas" : 4,
+    "costo_curso": 3500,
+    "pago_semanal": 200,
+    "inicio": "Enero del 2022",
+    "linkContado": "https://api.whatsapp.com/send?phone=+5546329182&text=Hola%20deseo%20inscribir%20a%20mi%20hij@%20y%20pagar%20de%20contado%20el%20curso%20de%20secundaria.",
+    "linkMeses": "https://api.whatsapp.com/send?phone=+5546329182&text=Hola,%20me%20interesa%20conocer%20las%20formas%20de%20pago%20para%20el%20curso%20de%20ingreso%20a%20Secundaria",
+    "linkSemanal": "https://api.whatsapp.com/send?phone=+5546329182&text=Hola%20quiero%20informes%20del%20curso%20de%20secundaria%20con%20pago%20semanal."
+}
+

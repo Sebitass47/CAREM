@@ -16,7 +16,7 @@ const Footer = () => {
                 </span>
             <hr/>
             <div>
-                <p>Diseñado por Sebastián Martínez de la Rosa </p>
+                <p>Diseñado por <a href='https://github.com/Sebitass47' target='_blank' rel="noreferrer" className='creador'>Sebastián Martínez de la Rosa</a>  </p>
                 <p>Copyright <BiCopyright /> 2022</p>
             </div>
             

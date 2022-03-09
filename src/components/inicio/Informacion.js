@@ -1,10 +1,10 @@
 import { useRef } from "react";
-import useOnScreen from '../useOnScreen'
+import useOnScreen from '../../functions/useOnScreen'
 import { BsWhatsapp } from 'react-icons/bs'
 
 const Informacion = () => {
     const ref = useRef()
-    const onScreen = useOnScreen(ref, '-150px')
+    const onScreen = useOnScreen(ref, '50px')
 
     return (
         <div className="information">

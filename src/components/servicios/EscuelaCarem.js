@@ -1,11 +1,11 @@
 import { useRef } from "react";
-import useOnScreen from '../useOnScreen'
+import useOnScreen from '../../functions/useOnScreen'
 
 const EscuelaCarem = (props) => {
     const { nombre, imagen, duracion, tiempo, caracteristica, costo, link} = props
 
     const ref = useRef()
-    const onScreen = useOnScreen(ref, '-100px')
+    const onScreen = useOnScreen(ref, '50px')
 
     return (
         <div ref={ref} className={onScreen ? "curso" : "animado"} style={onScreen ? {animation: '2s aparecer'} : null}>

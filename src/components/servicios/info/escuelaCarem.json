@@ -1,0 +1,39 @@
+[
+    {
+    "nombre": "Primaria",
+    "imagen": "/cursos/escuelaCarem/primaria.jpg",
+    "duracion": "3 a 6 meses",
+    "tiempo": "Se requiere un tiempo de 2 a 3 hrs diarias",
+    "caracteristica": "Certificado de primaria",
+    "costo": "$200",
+    "link": "https://api.whatsapp.com/send?phone=525546329182&text=Hola%20deseo%20más%20información%20de%20Primaria%20Carem."
+},
+{
+    "nombre": "Secundaria",
+    "imagen": "/cursos/escuelaCarem/secundaria.jpg",
+    "duracion": "3 a 6 meses",
+    "tiempo": "Se requiere un tiempo de 2 a 5 hrs diarias",
+    "caracteristica": "Certificado oficial emitido por SEP ",
+    "costo": "$200",
+    "link": "https://api.whatsapp.com/send?phone=525546329182&text=Hola%20deseo%20más%20información%20de%20%20Secundaria%20Carem."
+},
+
+{
+    "nombre": "Preparatoria",
+    "imagen": "/cursos/escuelaCarem/preparatoria.jpg",
+    "duracion": "2 años",
+    "tiempo": "Se requiere un tiempo de 3 a 5 hrs diarias.",
+    "caracteristica": " Certificado oficial Prepa SI ",
+    "costo": "$225",
+    "link": "https://api.whatsapp.com/send?phone=525546329182&text=Hola%20deseo%20más%20información%20de%20%20Preparatoria%20Carem."
+},
+
+{
+    "nombre": "Universidad",
+    "imagen": "/cursos/escuelaCarem/universidad.jpg",
+    "duracion": "4 años",
+    "tiempo": "Se requiere un tiempo de 3 a 5 hrs diarias",
+    "caracteristica": "Título con validez oficial",
+    "costo": "$250",
+    "link": "https://api.whatsapp.com/send?phone=525546329182&text=Hola%20deseo%20más%20información%20de%20%20Universidad%20Carem."
+}]
