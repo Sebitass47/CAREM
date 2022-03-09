@@ -9,7 +9,7 @@ import { BsCalendarWeekFill } from 'react-icons/bs'
 
 const Caracteristicas = ({ areas }) => {
     const ref = useRef()
-    const onScreen = useOnScreen(ref, '-50px')
+    const onScreen = useOnScreen(ref, '75px')
 
     return (
         <section className="caracteristicas">
